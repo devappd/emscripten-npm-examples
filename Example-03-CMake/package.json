@@ -1,0 +1,25 @@
+{
+  "name": "example-03-cmake",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "A C++ \"Hello world\" web application built with CMake. Includes a development server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "emscripten clean",
+    "build": "emscripten configure && emscripten build && emscripten install",
+    "start": "node ./app.js",
+    "dev": "node ./app.js --open --watch"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/master.tar.gz",
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "open": "^7.3.0",
+    "promisify-child-process": "^4.1.1",
+    "serve-index": "^1.9.1",
+    "watchpack": "^2.0.1",
+    "which": "^2.0.2"
+  }
+}

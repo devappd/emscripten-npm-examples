@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "connect-livereload": "^0.6.1",
-    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/master.tar.gz",
+    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/main.tar.gz",
     "express": "^4.17.1",
     "livereload": "^0.9.1",
     "open": "^7.3.0",

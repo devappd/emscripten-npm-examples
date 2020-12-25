@@ -7,6 +7,12 @@ In this case, it changes to `./src` and calls `emscripten run em++ -o ../dist/in
 
 The `emscripten run` command activates the Emscripten SDK and accepts your build command.
 
+You can also build an application by:
+
+* Passing a Makefile -- [see the Make example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-02-Make).
+* Passing a JS configuration file -- [see the CMake example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-03-CMake).
+* Using JS bindings -- [see the Autotools example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-04-Autotools).
+
 ## Usage
 
 * `npm run build` -- Build the C/C++ code from `./src` and output into `./dist`

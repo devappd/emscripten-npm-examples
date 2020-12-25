@@ -10,7 +10,13 @@ You can also specify arguments to the `./CMakeLists.txt` script and the compiler
 
 [You can view the configuration format here](https://github.com/devappd/emscripten-build-npm#configuration-files).
 
-The NPM build script calls `emscripten configure`, `emscripten build` and `emscripten install` without arguments. This searches the project's root directory for `emscripten.config.js`. 
+The NPM build script calls `emscripten configure`, `emscripten build` and `emscripten install` without arguments. This searches the project's root directory for `emscripten.config.js`.
+
+You can also build an application by:
+
+* Using a shell command -- [see the HelloWorld example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-01-HelloWorld).
+* Passing a Makefile or CMakeLists.txt -- [see the Make example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-02-Make).
+* Using JS bindings -- [see the Autotools example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-04-Autotools).
 
 ## Usage
 

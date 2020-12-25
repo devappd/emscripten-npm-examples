@@ -16,6 +16,12 @@ The configuration format matches the one for an `emscripten.config.js` file, as 
 
 [You can view the configuration format here](https://github.com/devappd/emscripten-build-npm#configuration-files).
 
+You can also build an application by:
+
+* Using a shell command -- [see the HelloWorld example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-01-HelloWorld).
+* Passing a Makefile -- [see the Make example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-02-Make).
+* Passing a JS configuration file -- [see the CMake example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-03-CMake).
+
 ## Usage
 
 * `npm run clean` -- Cleans the build via the Make `clean` target.

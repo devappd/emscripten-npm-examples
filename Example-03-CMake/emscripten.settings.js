@@ -6,9 +6,9 @@ module.exports = {
       "path": "./src",
       "generator": "Ninja",
       "type": "Release",
-      "arguments": [
-        "-DGREETER=\"Node Jackson\""
-      ]
+      "definitions": {
+        "GREETER": "Node Jackson"
+      }
     },
   
     "build": {

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+    try {
+      setTimeout(function() {
+        // Redirect to current URL
+        window.location.replace('https://github.com/devappd/emscripten-npm-examples');
+      }, 150);
+    } catch(err) {}
+    </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>devappd/emscripten-npm-examples</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #fff;
+      }
+      
+      body:not(.lapsed) #content {
+        display: none;
+      }
+      
+      body:not(.lapsed) #redirect {
+        display: block;
+      }
+      
+      body.lapsed #content {
+        display: block;
+      }
+      
+      body.lapsed #redirect {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="redirect">
+      <p><a href="https://github.com/devappd/emscripten-npm-examples">Visit <code>devappd/emscripten-npm-examples</code>...</a></p>
+    </div>
+    <div id="content">
+      <p><a href="https://github.com/devappd/emscripten-npm-examples">Visit <code>devappd/emscripten-npm-examples</code>...</a></p>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function(){ document.body.classList.add('lapsed'); }, 5000);
+    </script>
+  </body>
+</html>

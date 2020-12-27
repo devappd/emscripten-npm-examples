@@ -2,24 +2,13 @@
   "name": "example-06-sdl-opengl",
   "version": "1.0.0",
   "private": "true",
-  "description": "An example SDL and OpenGL web application written in C++. Includes a development server.",
-  "main": "app.js",
+  "description": "An example SDL and OpenGL web application written in C++.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "emscripten clean ./src",
-    "build": "emscripten configure ./src && emscripten build ./src && emscripten install ./src",
-    "start": "node ./app.js",
-    "dev": "node ./app.js --open --watch"
+    "build": "emscripten configure ./src && emscripten build ./src && emscripten install ./src"
   },
   "devDependencies": {
-    "connect-livereload": "^0.6.1",
-    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/main.tar.gz",
-    "express": "^4.17.1",
-    "livereload": "^0.9.1",
-    "open": "^7.3.0",
-    "promisify-child-process": "^4.1.1",
-    "serve-index": "^1.9.1",
-    "watchpack": "^2.0.1",
-    "which": "^2.0.2"
+    "emscripten-build": "git+https://github.com/devappd/emscripten-build-npm#main"
   }
 }

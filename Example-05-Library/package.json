@@ -9,6 +9,6 @@
     "build": "cd ./src && emscripten run em++ -o ../dist/lib.js -s MODULARIZE=1 --bind ./main.cpp"
   },
   "devDependencies": {
-    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/main.tar.gz"
+    "emscripten-build": "git+https://github.com/devappd/emscripten-build-npm#main"
   }
 }

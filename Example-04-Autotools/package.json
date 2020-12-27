@@ -2,24 +2,13 @@
   "name": "example-04-autotools",
   "version": "1.0.0",
   "private": "true",
-  "description": "A C++ \"Hello world\" web application built with Autotools. Includes a development server.",
-  "main": "app.js",
+  "description": "A C++ \"Hello world\" web application built with Autotools.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "node ./clean.js",
-    "build": "cd ./src && autoreconf --install --force && cd .. && node ./build.js",
-    "start": "node ./app.js",
-    "dev": "node ./app.js --open --watch"
+    "build": "cd ./src && autoreconf --install --force && cd .. && node ./build.js"
   },
   "devDependencies": {
-    "connect-livereload": "^0.6.1",
-    "emscripten-build": "https://github.com/devappd/emscripten-build-npm/archive/main.tar.gz",
-    "express": "^4.17.1",
-    "livereload": "^0.9.1",
-    "open": "^7.3.0",
-    "promisify-child-process": "^4.1.1",
-    "serve-index": "^1.9.1",
-    "watchpack": "^2.0.1",
-    "which": "^2.0.2"
+    "emscripten-build": "git+https://github.com/devappd/emscripten-build-npm#main"
   }
 }

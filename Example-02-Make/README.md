@@ -1,6 +1,6 @@
 # Example-02-Make
 
-This example demonstrates a C++ web application that is built via Makefile.
+This example demonstrates a C++ web application that is built via Makefile. [See the live sample here](https://devappd.github.io/emscripten-npm-examples/Example-02-Make/dist/index.html).
 
 ## Notes
 

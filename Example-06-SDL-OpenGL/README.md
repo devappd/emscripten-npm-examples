@@ -6,6 +6,8 @@ CMake and built with the command line `emscripten build "./src"`.
 The program is installed into `./dist` and is invoked by calling `emscripten install "./src"`.
 The NPM build script invokes both commands.
 
+[See the live sample here](https://devappd.github.io/emscripten-npm-examples/Example-06-SDL-OpenGL/dist/index.html).
+
 You can also build an application by:
 
 * Using a shell command -- [see the HelloWorld example](https://github.com/devappd/emscripten-npm-examples/tree/master/Example-01-HelloWorld).

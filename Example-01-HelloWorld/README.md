@@ -1,7 +1,7 @@
 # Example-01-HelloWorld
 
 This example demonstrates a C++ web application that is built by calling the command line
-in an NPM script.
+in an NPM script. [See the live sample here](https://devappd.github.io/emscripten-npm-examples/Example-01-HelloWorld/dist/index.html).
 
 In this case, it changes to `./src` and calls `emscripten run em++ -o ../dist/index.html ./main.cpp`.
 

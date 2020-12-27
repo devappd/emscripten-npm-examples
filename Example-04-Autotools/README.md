@@ -1,6 +1,6 @@
 # Example-04-Autotools
 
-This example demonstrates a C++ web application that is built with an Autotools `./configure` script.
+This example demonstrates a C++ web application that is built with an Autotools `./configure` script. [See the live sample here](https://devappd.github.io/emscripten-npm-examples/Example-04-Autotools/dist/index.html).
 
 This example may not work on Windows due to potential difficulty with setting up Bash and the
 Emscripten SDK.

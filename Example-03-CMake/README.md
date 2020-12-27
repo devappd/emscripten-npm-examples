@@ -1,6 +1,6 @@
 # Example-03-CMake
 
-This example demonstrates a C++ web application that is built with CMake.
+This example demonstrates a C++ web application that is built with CMake. [See the live sample here](https://devappd.github.io/emscripten-npm-examples/Example-03-CMake/dist/index.html).
 
 ## Notes
 

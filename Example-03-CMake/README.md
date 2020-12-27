@@ -4,13 +4,13 @@ This example demonstrates a C++ web application that is built with CMake.
 
 ## Notes
 
-This specific project is built by populating the configuration file `emscripten.config.js`. It allows
+This specific project is built by populating the settings file `emscripten.settings.js`. It allows
 you to specify the paths to the `./CMakeLists.txt` script, the cached build, and the install path.
 You can also specify arguments to the `./CMakeLists.txt` script and the compiler.
 
-[You can view the configuration format here](https://github.com/devappd/emscripten-build-npm#configuration-files).
+[You can view the settings format here](https://github.com/devappd/emscripten-build-npm#settings-files).
 
-The NPM build script calls `emscripten configure`, `emscripten build` and `emscripten install` without arguments. This searches the project's root directory for `emscripten.config.js`.
+The NPM build script calls `emscripten configure`, `emscripten build` and `emscripten install` without arguments. This searches the project's root directory for `emscripten.settings.js`.
 
 You can also build an application by:
 

@@ -58,7 +58,7 @@ if (watch) {
     console.log(`Source ${dateString} - ${path.basename(filePath)} - ${explanation}`);
     wp.pause();
     
-    spawn(npmPath, ['run', 'build'], { stdio: ['inherit', 'inherit', 'inherit'] })
+    spawn(npmPath, ['run', 'build-fast'], { stdio: ['inherit', 'inherit', 'inherit'] })
     .then(_ => {
       console.log('Build is complete!');
       wp.watch(watchOpts)

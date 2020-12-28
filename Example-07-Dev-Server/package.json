@@ -6,8 +6,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "emscripten clean",
-    "build": "emscripten build && emscripten install",
+    "clean": "emscripten --clean",
+    "build": "emscripten --build --install",
     "start": "node ./app.js",
     "dev": "node ./app.js --open --watch"
   },

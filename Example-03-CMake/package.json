@@ -5,8 +5,8 @@
   "description": "A C++ \"Hello world\" web application built with CMake.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "emscripten clean",
-    "build": "emscripten build && emscripten install"
+    "clean": "emscripten --clean",
+    "build": "emscripten --build --install"
   },
   "devDependencies": {
     "emscripten-build": "git+https://github.com/devappd/emscripten-build-npm#main"

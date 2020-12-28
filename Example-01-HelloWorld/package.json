@@ -5,7 +5,7 @@
   "description": "A C++ \"Hello world\" web application.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd ./src && emscripten run em++ -o ../dist/index.html ./main.cpp"
+    "build": "cd ./src && emscripten em++ -o ../dist/index.html ./main.cpp"
   },
   "devDependencies": {
     "emscripten-build": "git+https://github.com/devappd/emscripten-build-npm#main"

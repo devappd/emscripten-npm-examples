@@ -1,9 +1,9 @@
 GREETER?=Mike Makefile
 INSTALL_DIR?=../dist
 
-# Make sure your Makefile is cross-compatible with Windows
+# Make sure your Makefile is cross-compatible with Windows non-Bash.
 # Note that Windows copy does not work with forward slash paths.
-ifeq ($(OS),Windows_NT)
+ifeq ($(findstring cmd.exe,$(SHELL)),cmd.exe)
 	MKDIR_BUILD=if not exist "..\build" mkdir "..\build"
 	MKDIR_INSTALL=if not exist "$(INSTALL_DIR)" mkdir "$(INSTALL_DIR)"
 	CP_INSTALL=xcopy /y "..\build\*" "$(INSTALL_DIR)"
